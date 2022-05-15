@@ -1,0 +1,341 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ba2970a6e9b0e6b7db0fb3b6a903a0a918076aa93be3421f0103efe313ea4560",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a345c4803319cfeaf0d8e717e7a95620a34c5a9a2b8a1b1f81ae8a134a0ed362",
+   "format": 1
+  },
+  {
+   "name": "tests/ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "895f1fc3db77d6769bc217393f17f1c5542299d1c60dd9327ad9e29a31b6e71b",
+   "format": 1
+  },
+  {
+   "name": "tests/uninstall-homebrew.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "189c3c931880972b92704a97d8116352d50760b5d412124df0f028fab35b8d92",
+   "format": 1
+  },
+  {
+   "name": "tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dc7e9a98d334ef327c9ac778562a8f0879a14532538b184f0e75af888c7dec5f",
+   "format": 1
+  },
+  {
+   "name": "tests/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4e46cd8124dbade0d3d972325f6762c3f8a8f042d7750f9be462954904da3712",
+   "format": 1
+  },
+  {
+   "name": "meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "meta/runtime.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cfd384ce70575647d8f26f42960c5950a14f244e0fa2a97c26a184108d26ac8a",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6debca4bfbc2fec33a069f560453efda5034313e4d3d9695e7361f92c88080b3",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d57829f87c20ad29ed8dd51229b452fd8ae676ffe354dd92c95360302cf7fd01",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dock",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dock/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dock/tasks/dock-add.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "deda766cae795bcc12c2c3b2b39343b445036bba33ad395566c7346d3cd61f3a",
+   "format": 1
+  },
+  {
+   "name": "roles/dock/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "919895a79097618029e1e2426dba345ffca8cf9467da55188718c6522556af52",
+   "format": 1
+  },
+  {
+   "name": "roles/dock/tasks/dock-position.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1ebde692993889db3d166f56a0c2627b2099f14582bbe25e3c3025462ce3b6bb",
+   "format": 1
+  },
+  {
+   "name": "roles/dock/tasks/dock-remove.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f193b0cc534e477eaf9088096cc9d83d6c94a9fb16539e3cbadc93e442d53eae",
+   "format": 1
+  },
+  {
+   "name": "roles/dock/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dock/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54bf39db436e961ee7d70ce4c797fcdecef5e5832111e8d78564b6ac4ecee68e",
+   "format": 1
+  },
+  {
+   "name": "roles/dock/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e06ee09f302879da6c41cd4846cbb793b52771001d38df8689b9bf8d2d7e29bf",
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bac07db6ae2bb851c7d3e08abb1056b8115570a4603ddc489b67789da1cfda14",
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c150579773490d982d4ef2db2172cc919f2b43ddb06752a8d061c7ae827b178",
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f46bd84e5d6b1230c301389dd8762cf3c2060d0d5564936915537ef1437ec7af",
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a0eac243671a6975d0546e2867a1b9058396dffdf0c554851a8e8bf94ce3d5ee",
+   "format": 1
+  },
+  {
+   "name": "roles/homebrew/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "51979324feed87ca7af43767b9b9ff3a64b71c5e578950a0fc12c02bbe91dff7",
+   "format": 1
+  },
+  {
+   "name": "roles/mas",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mas/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mas/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a3cae878c6958ba8be1eeaae992a72adf230d08fbc62dd3a93901f232e576246",
+   "format": 1
+  },
+  {
+   "name": "roles/mas/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/mas/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c2599fd0d01d7aede9716ed8ba3a3c700ccbfcb5dadfea218a88d86e62d217e3",
+   "format": 1
+  },
+  {
+   "name": "roles/mas/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c1b20b7e7545bfd863129e06e2c7c013225cc4c840246890247302af3b3c3a4b",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "203f6c07b7d13466d6cb03777523b903473abfeccf2e66feb577e3c23d31577a",
+   "format": 1
+  },
+  {
+   "name": "galaxy-deploy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a208c8bc701bda30efc0214ff5cdc6090d2c7806de4498f1f659b94fab21a631",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9da8808fac4cc7dd486465ec3d2fc92046f3b34aa297af31af326b49f723279c",
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/release.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71dece4763807f3c3a1d669ba71cd7689ed1d8e7a43ee4b831daddc19adf0b54",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/ci.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bf847f72f02e4aabcf6a4bcee5d4e7c8de97909d7f15b30203d068a3edfa0b97",
+   "format": 1
+  },
+  {
+   "name": ".github/stale.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72c375394f0ac2faaf83ce378cde8f1839f64d906c98adcec27e4da3d051d39e",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90f24e934a4ea16b4a6a009aa0771582f69aab641538cb7883509d90f6b3565b",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
