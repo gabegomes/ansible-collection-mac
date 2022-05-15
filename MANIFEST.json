@@ -39,10 +39,8 @@
   "issues": "https://github.com/gabegomes/ansible-collection-mac/issues"
  },
  "file_manifest_file": {
-  "name": "FILES.json",
+  "name": "MANIFEST.json",
   "ftype": "file",
-  "chksum_type": "sha256",
-  "chksum_sha256": "27d0db069e1ed25fdf3d8787614d1f70b3075e2f1e57a08f9d309f5148f9839b",
   "format": 1
  },
  "format": 1
