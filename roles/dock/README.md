@@ -1,66 +1,38 @@
-# Ansible Role: macOS Dock Automation
+Role Name
+=========
 
-This role automates the use of `dockutil` to manage the items in your macOS Dock. You can add, remove, and arrange Dock items.
+A brief description of the role goes here.
 
-## Requirements
+Requirements
+------------
 
-  - **Homebrew**: Requires `homebrew` already installed (you can use `gabegomes.mac.homebrew` to install it on your Mac).
+Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
 
-## Role Variables
+Role Variables
+--------------
 
-Available variables are listed below, along with example values (see `defaults/main.yml`):
+A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
 
-```yaml
-dockitems_remove: []
-```
+Dependencies
+------------
 
-Dock items to remove.
+A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
 
-```yaml
-dockitems_persist: []
-```
+Example Playbook
+----------------
 
-Dock items to add. `pos` parameter is optional and will place the Dock item in a particular position in the Dock.
+Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-## Dependencies
-
-  - (Soft dependency) `gabegomes.homebrew`
-
-## Example Playbook
-
-```yaml
-    - hosts: localhost
-
-      vars:
-        dockitems_remove:
-          - Launchpad
-          - TV
-          - Podcasts
-          - 'App Store'
-
-        dockitems_persist:
-          - name: Messages
-            path: "/Applications/Messages.app/"
-          - name: Safari
-            path: "/Applications/Safari.app/"
-            pos: 2
-          - name: Sublime Text
-            path: "/Applications/Sublime Text.app/"
-            pos: 3
-
+    - hosts: servers
       roles:
-        - gabegomes.mac.homebrew
-        - gabegomes.mac.dock
-```
+         - { role: username.rolename, x: 42 }
 
-See the [Mac Development Ansible Playbook](https://github.com/gabegomes/mac-dev-playbook) for an example of this role's usage.
+License
+-------
 
-## License
+BSD
 
-MIT / BSD
+Author Information
+------------------
 
-## Author Information
-
-This role was created in 2021 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
-
-The contents of this role were originally created by [@dspolleke](https://github.com/dspolleke) as part of the [`mac-dev-playbook`](https://github.com/gabegomes/mac-dev-playbook).
+An optional section for the role authors to include contact information, or a website (HTML is not allowed).
